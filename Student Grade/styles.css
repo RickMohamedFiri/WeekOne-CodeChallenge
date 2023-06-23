@@ -1,0 +1,113 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    
+}
+.background{
+  background:url(../backgrounds/peakpx\ \(4\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .background>h1{
+    color: rgba(85, 41, 245, 0.553);
+    font-size: 6rem;
+    -webkit-text-stroke: 1px #fff;
+  }
+  .wrapper{
+  height: 23rem;
+  width: 30rem;
+  margin-top:3rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 100px rgba(0, 0, 0, 1);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .grade{
+    background: #000000ba;
+    color: #fff;
+    padding: .8rem .8rem;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    width: 25rem;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    
+  }
+  .calcBtn{
+    margin-top: .5rem;
+    padding: .5rem 2rem;
+    height: 3.6rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: transparent;
+    color: #000;
+    border:2px solid  #000;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0 0 30px #00000097;
+    border-radius: .5rem;
+  }
+
+  .calcBtn:hover
+  {
+    box-shadow: 0 0 30px #00000000;
+    border-radius: 0rem;
+    transition: .5s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
