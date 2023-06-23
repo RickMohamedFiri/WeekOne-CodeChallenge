@@ -41,7 +41,7 @@ body{
   }
   .main-div>h1{
     font-size: 6rem;
-    -webkit-text-stroke: 2px #fff;
+    -webkit-text-stroke: 2px aqua;
     color: transparent;
   }
   .wrapper{
@@ -62,13 +62,13 @@ body{
   }
 
 
-  .input::placeholder
+  .AreaOfInput::placeholder
   {
     font-size: 1.3rem;
     color: #fff;
   }
 
-  .input{
+  .AreaOfInput{
     color: #fff;
     background: #00000070;
     padding: 1rem .8rem;
