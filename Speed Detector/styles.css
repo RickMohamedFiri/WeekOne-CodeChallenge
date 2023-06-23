@@ -25,7 +25,7 @@ body{
   }
 
 
-.background{
+.main-div{
   color: #fff;
   background-position: center;
   background-size: cover;
@@ -39,7 +39,7 @@ body{
     align-items: center;
     justify-content: center;
   }
-  .background>h1{
+  .main-div>h1{
     font-size: 2rem;
   }
   .wrapper{
