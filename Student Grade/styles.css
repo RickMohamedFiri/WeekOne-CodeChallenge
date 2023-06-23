@@ -29,7 +29,7 @@ body{
     justify-content: center;
   }
   .background>h1{
-    color: rgba(85, 41, 245, 0.553);
+    color: rgba(41, 231, 245, 0.393);
     font-size: 6rem;
     -webkit-text-stroke: 1px #fff;
   }
@@ -80,8 +80,24 @@ body{
     transition: .5s;
   }
 
+@media (max-width:800px) {
+    .background h1
+    {
+        font-size: 4rem;
+    }
+}
 
 
+@media (max-width:1300px) {
+    .background h1
+    {
+        font-size: 4.5rem;
+    }
+
+    .wrapper{
+        margin-top: 1rem;
+    }
+}
 
 
 

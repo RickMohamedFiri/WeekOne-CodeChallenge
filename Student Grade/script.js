@@ -1,5 +1,5 @@
 
-//
+//Selecting various tags from the document
 const marksInput = document.querySelector(".grade");
 const Button = document.querySelector(".calcBtn");
 
