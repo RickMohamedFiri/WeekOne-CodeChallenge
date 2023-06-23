@@ -34,6 +34,7 @@ body{
     -webkit-text-stroke: 1px #fff;
   }
   .wrapper{
+  backdrop-filter: blur(3px);
   height: 23rem;
   width: 30rem;
   margin-top:3rem;
@@ -66,17 +67,17 @@ body{
     font-weight: bold;
     background: transparent;
     color: #000;
-    border:2px solid  #000;
+    border:2px solid  aqua;
     cursor: pointer;
     transition: .5s;
-    box-shadow: 0 0 30px #00000097;
-    border-radius: .5rem;
+    border-radius: 0rem;
   }
 
   .calcBtn:hover
   {
-    box-shadow: 0 0 30px #00000000;
-    border-radius: 0rem;
+    background: aqua;
+    box-shadow: 0 0 30px aqua;
+    border-radius: .3rem;
     transition: .5s;
   }
 
