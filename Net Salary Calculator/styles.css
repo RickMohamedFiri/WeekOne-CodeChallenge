@@ -2,16 +2,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(../backgrounds/wallpaperflare.com_wallpaper\ \(16\).jpg);
+    background:url(../backgrounds/bg2.jpg);
+    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 .main-div{
+    backdrop-filter: blur(10px);
+    background: linear-gradient(100deg, rgba(0, 255, 255, 0.436), rgba(255, 0, 157, 0.468));
   color: #fff;
   margin: 8rem 0;
   padding: 5rem 3rem;
-  background: transparent;
     text-align: center;
     box-shadow: inset -9px -9px 29px #0000009d, inset 9px 9px 29px #0000009d;
     height: 22rem;
