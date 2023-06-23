@@ -1,9 +1,83 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(../backgrounds/wallpaperflare.com_wallpaper\ \(16\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.main-div{
+  color: #fff;
+  margin: 8rem 0;
+  padding: 5rem 3rem;
+  background: transparent;
+    text-align: center;
+    box-shadow: inset -9px -9px 29px #0000009d, inset 9px 9px 29px #0000009d;
+    height: 22rem;
+    width: 25rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition:1s ease;
+  }
 
+  .main-div:hover
+  {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px#000;
+    transition:1s ease;
+
+
+  }
+
+  .main-div>h1{
+    font-size: 3rem;
+  }
+  .app {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .app input {
+    color: #fff;
+    background: #0000008e;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: .6rem 0.4em;
+    height: 2rem;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+  }
+  
+  .app button {
+    background-position: -50% -50%;
+    margin: 1rem auto;
+    padding: .3rem .4rem;
+    text-align: center;
+    height: 3.2rem;
+    width: 14rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .08rem;
+    color: #fff;
+    border:3px solid  #fff;
+    cursor: pointer;
+    transition: .4s;
+    background: transparent;
+  }
+
+  .app button:hover
+  {
+    background: #ffffff97;
+    transition: .4s;
+    color: red;
+  }
+  
